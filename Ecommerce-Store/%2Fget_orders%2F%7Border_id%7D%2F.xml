@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/get_orders/{order_id}/" path="/get_orders/{order_id}/" id="0f9d2614-abf5-420a-8186-de34e2c75664" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="0f9d2614-abf5-420a-8186-de34e2c75664fileName">%2Fget_orders%2F%7Border_id%7D%2F</con:setting></con:settings><con:parameters><con:parameter required="true"><con:name>order_id</con:name><con:style>TEMPLATE</con:style><con:description>id number for each number</con:description></con:parameter></con:parameters><con:method name="GET" id="d27bf6fe-e26a-400f-a7be-382053fad60d" method="GET"><con:description>Get list of all orders for the user&#13;
+</con:description><con:settings/><con:parameters><con:parameter required="true"><con:name>Authorization</con:name><con:style>HEADER</con:style><con:description>Token used for authentication</con:description></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:sampleContent>[ {&#13;
+  "order_id" : 1,&#13;
+  "customer_id" : 1,&#13;
+  "total_price" : 799.0,&#13;
+  "status" : 0,&#13;
+  "items" : 1,&#13;
+  "image" : "iphone.jpeg",&#13;
+  "paymenttype" : "card"&#13;
+} ]</con:sampleContent></con:representation><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>200</con:status><con:params/><con:sampleContent><![CDATA[<object>
+   <AnonymousModel>
+      <order_id>1</order_id>
+      <customer_id>1</customer_id>
+      <total_price>799.0</total_price>
+      <status>0</status>
+      <items>1</items>
+      <image>iphone.jpeg</image>
+      <paymenttype>card</paymenttype>
+   </AnonymousModel>
+</object>]]></con:sampleContent></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>400</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>404</con:status><con:params/></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="f5c620fb-3469-4e14-bfe4-2a5a7ff5ba80" mediaType="application/json"><con:settings/><con:endpoint>http://virtserver.swaggerhub.com</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource>

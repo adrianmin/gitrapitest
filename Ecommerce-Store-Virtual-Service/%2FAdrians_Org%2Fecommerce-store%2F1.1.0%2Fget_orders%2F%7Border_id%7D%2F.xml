@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/Adrians_Org/ecommerce-store/1.1.0/get_orders/{order_id}/" method="GET" resourcePath="/Adrians_Org/ecommerce-store/1.1.0/get_orders/{order_id}/" id="c1a6bad6-82fd-4767-a530-b4ccf2b4145b" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="c1a6bad6-82fd-4767-a530-b4ccf2b4145bfileName">%2FAdrians_Org%2Fecommerce-store%2F1.1.0%2Fget_orders%2F%7Border_id%7D%2F</con:setting></con:settings><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:requestRouteScript/><con:response name="Response 1" id="8117ec1a-50d1-49bb-8de4-e5e1a4a1e48b" httpResponseStatus="200" mediaType="application/json" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200035a000a636f6d707265737365644c000b636f6d7072657373696f6e74003d4c636f6d2f657669776172652f736f617075692f696d706c2f737570706f72742f436f6d7072657373656456616c756524436f6d7072657373696f6e3b5b0004646174617400025b427870007e72003b636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c756524436f6d7072657373696f6e00000000000000001200007872000e6a6176612e6c616e672e456e756d000000000000000012000078707400044e4f4e4570" dataSource=""><con:settings/><con:responseContent>[ {&#13;
+  "order_id" : 1,&#13;
+  "customer_id" : 1,&#13;
+  "total_price" : 799.0,&#13;
+  "status" : 0,&#13;
+  "items" : 1,&#13;
+  "image" : "iphone.jpeg",&#13;
+  "paymenttype" : "card"&#13;
+} ]</con:responseContent></con:response><con:response name="Response 2" id="80c1589d-9e5c-4e75-a084-2a86b411ae6b" httpResponseStatus="200" mediaType="application/xml" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200035a000a636f6d707265737365644c000b636f6d7072657373696f6e74003d4c636f6d2f657669776172652f736f617075692f696d706c2f737570706f72742f436f6d7072657373656456616c756524436f6d7072657373696f6e3b5b0004646174617400025b427870007e72003b636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c756524436f6d7072657373696f6e00000000000000001200007872000e6a6176612e6c616e672e456e756d000000000000000012000078707400044e4f4e4570" dataSource=""><con:settings/><con:responseContent><![CDATA[<object>
+   <AnonymousModel>
+      <order_id>1</order_id>
+      <customer_id>1</customer_id>
+      <total_price>799.0</total_price>
+      <status>0</status>
+      <items>1</items>
+      <image>iphone.jpeg</image>
+      <paymenttype>card</paymenttype>
+   </AnonymousModel>
+</object>]]></con:responseContent></con:response><con:response name="Response 3" id="650869ad-6add-4935-ba86-ad3c85b8e7db" httpResponseStatus="400" mediaType="application/json" dataSource=""><con:settings/><con:responseContent/></con:response><con:response name="Response 4" id="b9a92d39-d41e-4295-8f80-58bf01964c34" httpResponseStatus="400" mediaType="application/xml" dataSource=""><con:settings/><con:responseContent/></con:response><con:response name="Response 5" id="3b6a6301-1a86-4f14-afe7-d0bd4b90850b" httpResponseStatus="404" mediaType="application/json" dataSource=""><con:settings/><con:responseContent/></con:response><con:response name="Response 6" id="8baaac23-3a24-46ed-90c1-8c57de5aad01" httpResponseStatus="404" mediaType="application/xml" dataSource=""><con:settings/><con:responseContent/></con:response></con:restMockAction>

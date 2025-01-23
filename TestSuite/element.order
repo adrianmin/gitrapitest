@@ -1,0 +1,9 @@
+login-testcase.xml
+%2Flogout%2F-Request-1-Test-Case.xml
+user-details.xml
+%2Fget_products%2F%5Bproduct_id%5D%2F-Request-1-Test-Case.xml
+%2Fget_orders%2F%5Border_id%5D%2F-Request-1-Test-Case.xml
+%2Fpost_order%2F-Request-1-Test-Case.xml
+%2Fpayments%2Fcreditcard%2F-Request-1-Test-Case.xml
+%2Fpayments%2Fvoucher%2F-Request-1-Test-Case.xml
+Integ-Test-Case.xml

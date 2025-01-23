@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/Adrians_Org/ecommerce-store/1.1.0/get_products/{product_id}/" method="GET" resourcePath="/Adrians_Org/ecommerce-store/1.1.0/get_products/{product_id}/" id="89dcc3c1-3b5c-4b18-a195-3d6cb0bedd43" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="89dcc3c1-3b5c-4b18-a195-3d6cb0bedd43fileName">%2FAdrians_Org%2Fecommerce-store%2F1.1.0%2Fget_products%2F%7Bproduct_id%7D%2F</con:setting></con:settings><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:requestRouteScript/><con:response name="Response 1" id="93902e6a-1ab4-4acf-8ad8-bc9b22f4a9f3" httpResponseStatus="200" mediaType="application/json" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200035a000a636f6d707265737365644c000b636f6d7072657373696f6e74003d4c636f6d2f657669776172652f736f617075692f696d706c2f737570706f72742f436f6d7072657373656456616c756524436f6d7072657373696f6e3b5b0004646174617400025b427870007e72003b636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c756524436f6d7072657373696f6e00000000000000001200007872000e6a6176612e6c616e672e456e756d000000000000000012000078707400044e4f4e4570" dataSource=""><con:settings/><con:responseContent>[ {&#13;
+  "id" : 1,&#13;
+  "name" : "iPhone",&#13;
+  "description" : "This is an iphone 8",&#13;
+  "image" : "iphone.jpg",&#13;
+  "price" : 799.0,&#13;
+  "created" : "August",&#13;
+  "modified" : "September",&#13;
+  "status" : 0&#13;
+} ]</con:responseContent></con:response><con:response name="Response 2" id="da8d2f55-7641-4711-a23c-b1f36414082a" httpResponseStatus="200" mediaType="application/xml" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200035a000a636f6d707265737365644c000b636f6d7072657373696f6e74003d4c636f6d2f657669776172652f736f617075692f696d706c2f737570706f72742f436f6d7072657373656456616c756524436f6d7072657373696f6e3b5b0004646174617400025b427870007e72003b636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c756524436f6d7072657373696f6e00000000000000001200007872000e6a6176612e6c616e672e456e756d000000000000000012000078707400044e4f4e4570" dataSource=""><con:settings/><con:responseContent><![CDATA[<object>
+   <AnonymousModel>
+      <id>1</id>
+      <name>iPhone</name>
+      <description>This is an iphone 8</description>
+      <image>iphone.jpg</image>
+      <price>799.0</price>
+      <created>August</created>
+      <modified>September</modified>
+      <status>0</status>
+   </AnonymousModel>
+</object>]]></con:responseContent></con:response><con:response name="Response 3" id="2dd52a1f-e2c8-4395-a5a9-20ac84679577" httpResponseStatus="400" mediaType="application/json" dataSource=""><con:settings/><con:responseContent/></con:response><con:response name="Response 4" id="14a37920-a01e-4746-9ee0-72e8e1563c8e" httpResponseStatus="400" mediaType="application/xml" dataSource=""><con:settings/><con:responseContent/></con:response><con:response name="Response 5" id="449b2061-c769-4f7b-bbb2-4b9019d5f243" httpResponseStatus="404" mediaType="application/json" dataSource=""><con:settings/><con:responseContent/></con:response><con:response name="Response 6" id="2b7f0e20-51ad-4e63-a96d-f28ec49b56a1" httpResponseStatus="404" mediaType="application/xml" dataSource=""><con:settings/><con:responseContent/></con:response></con:restMockAction>

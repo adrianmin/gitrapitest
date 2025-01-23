@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/Adrians_Org/ecommerce-store/1.1.0/login/" method="GET" resourcePath="/Adrians_Org/ecommerce-store/1.1.0/login/" id="0410f71e-b1bd-469b-a8e1-9d8264fce749" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="0410f71e-b1bd-469b-a8e1-9d8264fce749fileName">%2FAdrians_Org%2Fecommerce-store%2F1.1.0%2Flogin%2F</con:setting></con:settings><con:dispatchStyle>PARAMETER</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:parameterDispatcherRuleContainer/><con:requestRouteScript/><con:response name="Response 1" id="4c636972-9919-478b-9e25-05b613bff36f" httpResponseStatus="200" mediaType="application/json" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200035a000a636f6d707265737365644c000b636f6d7072657373696f6e74003d4c636f6d2f657669776172652f736f617075692f696d706c2f737570706f72742f436f6d7072657373656456616c756524436f6d7072657373696f6e3b5b0004646174617400025b427870007e72003b636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c756524436f6d7072657373696f6e00000000000000001200007872000e6a6176612e6c616e672e456e756d000000000000000012000078707400044e4f4e4570"><con:settings/><con:responseContent>[ {&#13;
+  "message" : "Login successful",&#13;
+  "name" : "John",&#13;
+  "last_name" : "Smith",&#13;
+  "auth_token" : "Bearer 12345689123456789"&#13;
+} ]</con:responseContent></con:response><con:response name="Response 2" id="edf10292-a387-48ac-a508-51da703db392" httpResponseStatus="200" mediaType="application/xml" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200035a000a636f6d707265737365644c000b636f6d7072657373696f6e74003d4c636f6d2f657669776172652f736f617075692f696d706c2f737570706f72742f436f6d7072657373656456616c756524436f6d7072657373696f6e3b5b0004646174617400025b427870007e72003b636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c756524436f6d7072657373696f6e00000000000000001200007872000e6a6176612e6c616e672e456e756d000000000000000012000078707400044e4f4e4570"><con:settings/><con:responseContent><![CDATA[<object>
+   <AnonymousModel>
+      <message>Login successful</message>
+      <name>John</name>
+      <last_name>Smith</last_name>
+      <auth_token>Bearer 12345689123456789</auth_token>
+   </AnonymousModel>
+</object>]]></con:responseContent></con:response><con:response name="Response 3" id="dbcf9265-26df-45eb-b54b-bf843cc1f3f1" httpResponseStatus="404" mediaType="application/json"><con:settings/><con:responseContent/></con:response><con:response name="Response 4" id="2f006e4a-b57f-4be5-a8fa-f8ab4647cb04" httpResponseStatus="404" mediaType="application/xml"><con:settings/><con:responseContent/></con:response></con:restMockAction>

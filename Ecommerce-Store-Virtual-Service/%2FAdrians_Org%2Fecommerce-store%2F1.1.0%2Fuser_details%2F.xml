@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/Adrians_Org/ecommerce-store/1.1.0/user_details/" method="GET" resourcePath="/Adrians_Org/ecommerce-store/1.1.0/user_details/" id="ca46a95d-3957-4c53-a5e7-a441e9f15735" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="ca46a95d-3957-4c53-a5e7-a441e9f15735fileName">%2FAdrians_Org%2Fecommerce-store%2F1.1.0%2Fuser_details%2F</con:setting></con:settings><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:requestRouteScript/><con:response name="Response 1" id="67f22604-7235-403a-a6bd-22cf71275ab9" httpResponseStatus="200" mediaType="application/json" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200035a000a636f6d707265737365644c000b636f6d7072657373696f6e74003d4c636f6d2f657669776172652f736f617075692f696d706c2f737570706f72742f436f6d7072657373656456616c756524436f6d7072657373696f6e3b5b0004646174617400025b427870007e72003b636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c756524436f6d7072657373696f6e00000000000000001200007872000e6a6176612e6c616e672e456e756d000000000000000012000078707400044e4f4e4570"><con:settings/><con:responseContent>[ {&#13;
+  "id" : 1,&#13;
+  "name" : "John",&#13;
+  "last_name" : "Smith",&#13;
+  "email" : "john.smith@example.com",&#13;
+  "phone" : 871234567,&#13;
+  "address" : "Galway, Ireland"&#13;
+} ]</con:responseContent></con:response><con:response name="Response 2" id="8c8c591e-fb3e-45a5-826f-5db930fc3c4a" httpResponseStatus="200" mediaType="application/xml" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200035a000a636f6d707265737365644c000b636f6d7072657373696f6e74003d4c636f6d2f657669776172652f736f617075692f696d706c2f737570706f72742f436f6d7072657373656456616c756524436f6d7072657373696f6e3b5b0004646174617400025b427870007e72003b636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c756524436f6d7072657373696f6e00000000000000001200007872000e6a6176612e6c616e672e456e756d000000000000000012000078707400044e4f4e4570"><con:settings/><con:responseContent><![CDATA[<object>
+   <AnonymousModel>
+      <id>1</id>
+      <name>John</name>
+      <last_name>Smith</last_name>
+      <email>john.smith@example.com</email>
+      <phone>871234567</phone>
+      <address>Galway, Ireland</address>
+   </AnonymousModel>
+</object>]]></con:responseContent></con:response><con:response name="Response 3" id="e3daa336-5892-4edb-a2c6-b567887cef76" httpResponseStatus="404" mediaType="application/json"><con:settings/><con:responseContent/></con:response><con:response name="Response 4" id="37e99e42-cdda-4b8c-8ec3-bac34f7c08f2" httpResponseStatus="404" mediaType="application/xml"><con:settings/><con:responseContent/></con:response></con:restMockAction>

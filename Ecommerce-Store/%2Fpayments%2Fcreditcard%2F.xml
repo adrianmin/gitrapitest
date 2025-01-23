@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/payments/creditcard/" path="/payments/creditcard/" id="96fcd07d-ab94-4461-93e5-931e6b16083e" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="96fcd07d-ab94-4461-93e5-931e6b16083efileName">%2Fpayments%2Fcreditcard%2F</con:setting></con:settings><con:parameters/><con:method name="POST" id="f821713b-f9ba-414c-96c1-e12f77d4f7b1" method="POST"><con:description>External Service to make Creditcard payments&#13;
+</con:description><con:settings/><con:parameters><con:parameter required="true"><con:name>Authorization</con:name><con:style>HEADER</con:style><con:description>Token used for authentication</con:description></con:parameter></con:parameters><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/><con:sampleContent>{&#13;
+  "id" : 33,&#13;
+  "action" : "placeOrdercc",&#13;
+  "cc_money" : 798.0,&#13;
+  "cc_name" : "S S",&#13;
+  "cc_number" : 0,&#13;
+  "cc_exp_mo" : 1,&#13;
+  "cc_exp_yr" : 2018,&#13;
+  "cc_cvv" : 123&#13;
+}</con:sampleContent></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:sampleContent>{&#13;
+  "Status" : "Transaction Approved",&#13;
+  "Reason" : "Approved",&#13;
+  "Status Code" : 100&#13;
+}</con:sampleContent></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="e8785e5e-897d-43af-be1d-801ee8111bb8" mediaType="application/json"><con:settings/><con:endpoint>http://virtserver.swaggerhub.com</con:endpoint><con:request>{\r
+  "id" : 33,\r
+  "action" : "placeOrdercc",\r
+  "cc_money" : 798.0,\r
+  "cc_name" : "S S",\r
+  "cc_number" : 0,\r
+  "cc_exp_mo" : 1,\r
+  "cc_exp_yr" : 2018,\r
+  "cc_cvv" : 123\r
+}</con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/><con:parameterOrder><con:entry>Authorization</con:entry></con:parameterOrder></con:request></con:method></con:resource>

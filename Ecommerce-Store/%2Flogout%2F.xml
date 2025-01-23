@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/logout/" path="/logout/" id="c792e203-ea26-4ba8-b584-93b3d4a217a1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="c792e203-ea26-4ba8-b584-93b3d4a217a1fileName">%2Flogout%2F</con:setting></con:settings><con:parameters/><con:method name="GET" id="9d6b8c40-aee5-4e75-8f8e-4b0aaffe4e76" method="GET"><con:description>Logout current user&#13;
+</con:description><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:sampleContent>[ {&#13;
+  "message" : "Logout successful",&#13;
+  "status" : 1&#13;
+} ]</con:sampleContent></con:representation><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>200</con:status><con:params/><con:sampleContent><![CDATA[<object>
+   <AnonymousModel>
+      <message>Logout successful</message>
+      <status>1</status>
+   </AnonymousModel>
+</object>]]></con:sampleContent></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>404</con:status><con:params/></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="68ae4b0d-c4cc-4bda-b7d4-e6d8a68bad06" mediaType="application/json"><con:settings/><con:endpoint>http://virtserver.swaggerhub.com</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource>

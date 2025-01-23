@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/login/" path="/login/" id="b6f760fa-3239-40eb-b5dd-444825371946" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="b6f760fa-3239-40eb-b5dd-444825371946fileName">%2Flogin%2F</con:setting></con:settings><con:parameters/><con:method name="GET" id="e2befdfc-3149-42fe-a713-63d8f6bb709d" method="GET"><con:description>Login to user account&#13;
+</con:description><con:settings/><con:parameters><con:parameter required="true"><con:name>username</con:name><con:style>QUERY</con:style><con:description>The user name for login</con:description></con:parameter><con:parameter required="true"><con:name>password</con:name><con:style>QUERY</con:style><con:description>The password for login in clear text</con:description></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:sampleContent>[ {&#13;
+  "message" : "Login successful",&#13;
+  "name" : "John",&#13;
+  "last_name" : "Smith",&#13;
+  "auth_token" : "Bearer 12345689123456789"&#13;
+} ]</con:sampleContent></con:representation><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>200</con:status><con:params/><con:sampleContent><![CDATA[<object>
+   <AnonymousModel>
+      <message>Login successful</message>
+      <name>John</name>
+      <last_name>Smith</last_name>
+      <auth_token>Bearer 12345689123456789</auth_token>
+   </AnonymousModel>
+</object>]]></con:sampleContent></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>404</con:status><con:params/></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="aae50504-9fe8-4a0d-b155-349aed424016" mediaType="application/json"><con:settings/><con:endpoint>http://virtserver.swaggerhub.com</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource>
